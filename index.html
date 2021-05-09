@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio</title>
+    <link rel="icon" href="./img/dice.png" type="image/png">
+    <link href="./style/style.css" rel="stylesheet">
+    <script src="./script/scriptsorteio.js"></script>
+</head>
+<body>
+    <h1>Sorteio</h1>
+    <div id="theForm">
+        <p>Número inicial: </p>
+        <input class="info" type="number" name="start" id="start" min="1" value="1">
+       
+        <p>Número máximo: </p>
+        <input class="info" type="number" name="end" id="end" min="1">
+
+        <p>Quantidade de número para sorteio</p>
+        <input class="info" type="number" name="totalNumbers" id="total" min="1"><br>
+
+       <button onclick="sortear()">sortear</button> 
+       <button onclick="window.location.reload()">novo</button><br>
+            <div id="infoResult"> 
+            <h2 id="resultado"> Resultado </h2>     
+            </div>
+    </div>
+</body>
+</html>
