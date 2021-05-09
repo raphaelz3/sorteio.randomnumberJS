@@ -1,4 +1,4 @@
-//função para gerar um número aleatório. Generate random number
+//função para gerar um número aleatório. Generate random number.
 function gerarnumero(maxvalue, minvalue)
 {
     var result;
