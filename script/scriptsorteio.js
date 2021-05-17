@@ -1,7 +1,7 @@
 //função para gerar um número aleatório. Generate random number.
 function gerarnumero(maxvalue, minvalue)
 {
-    var result;
+    let result;
 
     result = Math.round(Math.random() * (maxvalue - minvalue)) + minvalue;
     return result;
