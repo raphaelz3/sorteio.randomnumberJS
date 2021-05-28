@@ -3,8 +3,7 @@ function gerarnumero(maxvalue, minvalue)
 {
     let result;
 
-    result = Math.round(Math.random() * (maxvalue - minvalue)) + minvalue;
-    return result;
+    return result = Math.round(Math.random() * (maxvalue - minvalue)) + minvalue;
 }
 //Função inicial, recebe os dados do usuário e faz o tratamento das informações. Initial function, receives the user's data and handles the information.
 function sortear()
